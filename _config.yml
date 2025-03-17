@@ -1,0 +1,13 @@
+title: "My CTF Writeups"
+description: "Documenting my journey through various CTF challenges"
+remote_theme: b2a3e8/jekyll-theme-console
+plugins:
+  - jekyll-remote-theme
+
+# Theme settings
+style: hacker # Perfect for CTF content!
+header_pages:
+  - index.md
+  - platforms.md
+  - categories.md
+  - about.md

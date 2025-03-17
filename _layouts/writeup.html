@@ -1,0 +1,23 @@
+---
+layout: post
+---
+
+{{ content }}
+
+{% if page.categories %}
+<div class="categories">
+    <strong>Categories:</strong>
+    {% for category in page.categories %}
+    <span class="category">{{ category }}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if page.tags %}
+<div class="tags">
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+</div>
+{% endif %}
