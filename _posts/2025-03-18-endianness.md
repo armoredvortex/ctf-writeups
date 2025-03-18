@@ -3,7 +3,7 @@ title: "endianness"
 date: 2025-03-18
 layout: writeup
 platform: picoGym
-categories: [Reverse Engineering]
+categories: [General Skills]
 tags: [endianness, little-endian, big-endian]
 difficulty: Easy
 ---
