@@ -11,3 +11,7 @@ header_pages:
   - platforms.md
   - categories.md
   - about.md
+
+collections:
+  posts:
+    output: true

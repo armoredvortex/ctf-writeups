@@ -2,7 +2,8 @@
 title: "Permissions"
 date: 2025-03-18
 layout: writeup
-categories: [picoGym, Reverse Engineering]
+platform: picoGym
+categories: [Reverse Engineering]
 tags: [permissions, sudo, vi, hidden-files]
 difficulty: Easy
 ---
