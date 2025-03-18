@@ -4,3 +4,11 @@
     display: block;
     margin: 0 auto;
 }
+
+.highlight pre {
+    background: #0d1c25;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #5d5d5d 2px;
+    margin: 10px;
+}
