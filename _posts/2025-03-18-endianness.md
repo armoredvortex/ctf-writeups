@@ -19,7 +19,7 @@ Inspecting the source, we see that we have to enter the hex values.
 
 Looking up wikipedia, I found this neat diagram that explains it well.
 
-<img src="{{ 'assets/images/endianness/endianness.jpg' | relative_url }}" alt="Endianness" style="max-width: 100%" />
+<img src="{{ 'assets/images/endianness/endianness.jpg' | relative_url }}" alt="Endianness"/>
 
 ## Solution
 
