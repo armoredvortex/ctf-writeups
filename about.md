@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
 Hi! I'm Rachit
 
 I'm a Cyber Security Enthusiast and a Computer Science Student. I love to solve CTF challenges and learn new things.

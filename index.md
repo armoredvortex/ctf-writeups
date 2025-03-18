@@ -1,5 +1,5 @@
 ---
-title: CTF Writeups
+title: Home
 layout: home
 permalink: /
 ---
