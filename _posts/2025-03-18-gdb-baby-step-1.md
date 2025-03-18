@@ -16,7 +16,7 @@ Flag format is `picoCTF{n}` where n is the decimal value inside the register.
 
 ## Disassembling the binary
 
-```x86asm
+```nasm
 (gdb) disas main
 Dump of assembler code for function main:
    0x0000555555555129 <+0>:	endbr64
