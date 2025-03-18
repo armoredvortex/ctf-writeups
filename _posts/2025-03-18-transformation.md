@@ -4,7 +4,7 @@ date: 2025-03-18
 layout: writeup
 platform: picoGym
 categories: [Reverse Engineering]
-tags: [ascii utf python]
+tags: [ascii, utf, python]
 difficulty: Easy
 ---
 
