@@ -12,5 +12,5 @@ This site documents my journey through various Capture The Flag (CTF) challenges
 
 {% for post in site.posts limit:5 %}
 
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
