@@ -1,6 +1,6 @@
 ---
 title: "Permissions"
-date: 2025-03-18
+date: 2025-03-17
 layout: writeup
 platform: picoGym
 categories: [Reverse Engineering]
