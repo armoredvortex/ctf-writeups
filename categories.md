@@ -12,7 +12,7 @@ permalink: /categories/
 
 {% for post in category[1] %}
 
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
 
 {% endfor %}
