@@ -15,7 +15,7 @@ permalink: /platforms/
 {% assign posts_in_platform = site.posts | where: "platform", platform %}
 {% for post in posts_in_platform %}
 
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
 
 {% endfor %}
