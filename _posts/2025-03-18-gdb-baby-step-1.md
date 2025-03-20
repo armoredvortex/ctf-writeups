@@ -5,6 +5,7 @@ layout: writeup
 platform: picoGym
 categories: [Reverse Engineering]
 tags: [gdb, assembly]
+challenge_link: https://play.picoctf.org/practice/challenge/395
 ---
 
 # GDB baby step 1

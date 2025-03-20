@@ -6,6 +6,7 @@ platform: picoGym
 categories: [Reverse Engineering]
 tags: [permissions, sudo, vi, hidden-files]
 difficulty: Easy
+challenge_link: https://play.picoctf.org/practice/challenge/363
 ---
 
 # Permissions

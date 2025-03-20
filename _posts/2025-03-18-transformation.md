@@ -6,6 +6,7 @@ platform: picoGym
 categories: [Reverse Engineering]
 tags: [ascii, utf, python]
 difficulty: Easy
+challenge_link: https://play.picoctf.org/practice/challenge/104
 ---
 
 # Transformation

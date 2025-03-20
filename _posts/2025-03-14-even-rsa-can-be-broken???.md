@@ -5,6 +5,7 @@ layout: writeup
 platform: picoCTF 2025
 categories: [Cryptography]
 tags: [RSA, Factorization]
+challenge_link: https://play.picoctf.org/practice/challenge/470
 ---
 
 # EVEN RSA can be broken???

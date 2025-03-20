@@ -6,6 +6,7 @@ platform: picoGym
 categories: [General Skills]
 tags: [endianness, little-endian, big-endian]
 difficulty: Easy
+challenge_link: https://play.picoctf.org/practice/challenge/414
 ---
 
 # Endianness

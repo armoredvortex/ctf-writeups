@@ -3,6 +3,19 @@ layout: post
 ---
 <link rel="stylesheet" href="{{ '/assets/css/writeup-style.css' | relative_url }}">
 
+{% if page.challenge_link %}
+<div class="challenge-links">
+    <strong>Challenge Links:</strong>
+    {% assign links = page.challenge_link | split: ',' %}
+    <ul>
+        {% for link in links %}
+        <li><a href="{{ link | strip }}" target="_blank" rel="noopener">{{ link | strip }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+
 {{ content }}
 
 {% if page.categories %}
