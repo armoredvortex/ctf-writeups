@@ -1,6 +1,6 @@
 ---
 title: "README please"
-date: 2025-03-29
+date: 2025-03-28
 layout: writeup
 platform: pearlCTF 2025
 categories: [pwn]
@@ -90,3 +90,11 @@ So I connected to the server and checked the `/proc/stat` file.
 Say it was `1234`, then I would connect again and I knew that the file descriptor would be `/proc/1235/fd/3`.
 So first I would read `files/flag.txt` and enter a wrong password. The file descriptor to the flag file would still be open.
 Then I would read the `/proc/1235/fd/3` file and get the flag.
+
+<!-- UPDATE I found a better solution -->
+
+## UPDATE
+
+While reading more about file descriptors, I found out that we didnt need to go through the hassle of finding the pid.
+We could just use the `/proc/self/fd/3` file descriptor.
+This would give us the file descriptor of the current process.
