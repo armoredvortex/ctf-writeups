@@ -1,6 +1,6 @@
 title: "My CTF Writeups"
 description: "Documenting my journey through various CTF challenges"
-remote_theme: gildasio/darcli
+remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-remote-theme
 
