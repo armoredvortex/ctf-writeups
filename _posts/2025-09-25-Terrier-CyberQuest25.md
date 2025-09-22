@@ -1,6 +1,6 @@
 ---
 title: "Indian Army Terrier CyberQuest 2025"
-date: 2025-03-29
+date: 2025-09-29
 layout: writeup
 platform: Terrier CyberQuest 2025
 categories: [web, pwn, pentesting, rev, forensics, steg]
